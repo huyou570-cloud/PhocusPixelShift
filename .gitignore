@@ -1,0 +1,12 @@
+dist/
+*.3fr
+*.3FR
+*.fff
+*.FFF
+*.tif
+*.tiff
+*.log
+.vs/
+bin/
+obj/
+!docs/*.log

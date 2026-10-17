@@ -1,0 +1,9 @@
+﻿PASS: RGB16 little endian
+PASS: RGB16 big endian
+PASS: Reject RGB8
+PASS: Reject truncated pixel strip
+PASS: Reject invalid header
+PASS: Reject invalid/duplicate input group: 1,2,3
+PASS: Reject invalid/duplicate input group: 1,2,3,1
+PASS: Reject invalid/duplicate input group: 1,2,3,4,5
+Tests completed. Real RAW merge/export still requires original photographs.

@@ -1,0 +1,54 @@
+﻿[
+  {
+    "Group": "四张",
+    "Status": "complete",
+    "Shots": 4,
+    "Inputs": [
+      "B0000586.3FR",
+      "B0000587.3FR",
+      "B0000588.3FR",
+      "B0000589.3FR"
+    ],
+    "SHA256": [
+      "d258ab33d7ec46b75ebdc8d08ff198a1667058186f00f93ef5bb6f3e5fd33407",
+      "66bff0d2f1dbf8b08dcfc084a56ec58d18cf26a562f99570073997a9b84f3638",
+      "e62124339e2fbad72ca743a194a2cb3276822bee779e5029282882e90f7103b0",
+      "f48f12c9b923df2e7ff44f3d6d2fee4f833a867109bbf7450eb7007962f6ac2f"
+    ],
+    "OriginalsVerifiedUnchanged": true,
+    "Width": 11656,
+    "Height": 8742,
+    "Channels": 3,
+    "BitsPerChannel": 16,
+    "OutputSHA256": "6a33d29c59eadb6576f2a1febcd67b3faae9f09f4cf1992467167f11985bbca0",
+    "Completed": "2026-10-17T23:24:20.0333555+08:00"
+  },
+  {
+    "Group": "六张",
+    "Status": "complete",
+    "Shots": 6,
+    "Inputs": [
+      "B0000580.3FR",
+      "B0000581.3FR",
+      "B0000582.3FR",
+      "B0000583.3FR",
+      "B0000584.3FR",
+      "B0000585.3FR"
+    ],
+    "SHA256": [
+      "2bbf15ac6530928ce9f0ba30d98a6b3dbd83556c8865cd276b98021d706385e6",
+      "8dc8ead9308638b1d6c2c61d5ed41a6ce5a392a5526535a10079042b15eaae8e",
+      "094a0a445ecae05ddb78c599f2a73e4edad22ee5c4215845fbdb48a537d11740",
+      "60a73c60f8d4e4baa5199c0d2e1e58e4dbc4670d840561544f10798fbadb78ae",
+      "5f279c8c950c2bea8995a47ebb36f046f56b1db637d1f007d5336e30e6a83038",
+      "ec9e61ba534a2d32481a9b8c56aa4fc285ddac40e138866aee6ed804f62173fa"
+    ],
+    "OriginalsVerifiedUnchanged": true,
+    "Width": 23312,
+    "Height": 17484,
+    "Channels": 3,
+    "BitsPerChannel": 16,
+    "OutputSHA256": "26c7ff311b8e2baad542db0922f424938f91219d49debf27ecade05ba6179a6f",
+    "Completed": "2026-10-17T23:25:12.8930084+08:00"
+  }
+]
