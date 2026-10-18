@@ -18,3 +18,8 @@
 恢复出来的 BridgeInitFix 调用已进入桥接源码，因此重新编译无需再进行二进制补丁。恢复不保证与旧程序行为完全等价，仍需真实原片回归。
 
 用户于 2026-10-17 明确确认：最初的 native-fff-bridge.exe 也是此前由 Codex 生成。此前的来源待确认记录据此更新。项目代码按 MIT 许可证发布，Phocus 自身及其组件不包含在授权范围内。
+
+
+## macOS 贡献（2026-10-18）
+
+`macos/` 由 Radium Wang 提供，移入其原创 Mac 0.2 AppKit 界面、Python 工作流与 ARM64/x86_64 本地适配桥源码，来源为 https://github.com/radium-wang/phocus-pixel-shift-research 的本地 Mac 0.2 工作流。保留 `macos/LICENSE` 中的版权与 MIT 许可。独立于以上 Windows 恢复流程，不包含 Phocus 原生组件。验收及限制见 `macos/mac-app/VALIDATION.md`。

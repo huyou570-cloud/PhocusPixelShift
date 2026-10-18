@@ -1,6 +1,17 @@
 # Phocus 四张／六张像素位移合并
 
-支持将同组四张或六张 X2D 3FR 原片，通过本机 Phocus 4.1.1 合并并导出 16 位 RGB TIFF。包含 Windows 图形界面、合并流程、桥接代码、编译脚本和测试。
+## 下载 / Downloads
+
+| 平台 | 下载 | 说明 |
+| --- | --- | --- |
+| Windows x64 | [下载 Windows v0.4](https://github.com/huyou570-cloud/PhocusPixelShift/releases/download/v0.4-recovered/PhocusPixelShift-Windows-x64-v0.4.zip) | 原项目发行版，需指定构建的 Phocus 4.1.1 |
+| macOS Universal | [下载 Mac v0.2（Intel / Apple Silicon）](https://github.com/radium-wang/PhocusPixelShift/releases/download/macos-v0.2/PhocusPixelShift-macOS-Universal-v0.2.zip) | macOS 13+；贡献者 fork 发行包，需本机 Phocus、Python 3.10+ 和 Apple Command Line Tools |
+
+[Windows 发行说明与校验值](https://github.com/huyou570-cloud/PhocusPixelShift/releases/tag/v0.4-recovered) · [Mac 发行说明与校验值](https://github.com/radium-wang/PhocusPixelShift/releases/tag/macos-v0.2)
+
+Mac 支持 4／6 张合并，Intel 路径已在 Rosetta 下用真实样片验证，物理 Intel Mac 尚待验收。Mac 组件兼容性检查、源码构建和使用说明见 [macos/README.md](macos/README.md)。下文原有编译与使用步骤针对 Windows。
+
+支持将同组四张或六张 X2D 3FR 原片，通过本机 Phocus 4.1.1 合并并导出 16 位 RGB TIFF。包含 Windows 图形界面、合并流程、桥接代码、编译脚本和测试，并在 `macos` 下提供独立的 Mac 双架构应用。
 
 **本机四张／六张原片实测通过。** 项目代码按 MIT 许可证发布，详见 `LICENSE`；代码来源记录见 `PROVENANCE.md`。
 
@@ -34,6 +45,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\build.ps1 -Test
 
 ## 目录
 
+- `macos`：独立的 macOS Universal 应用、原创桥源码和测试。
 - `src/App`：Windows 图形界面。
 - `src/Worker`：模板、FFF 整理、导出、TIFF 与哈希验证。
 - `src/NativeBridge`：原生引擎和 RAW 读取桥接。
