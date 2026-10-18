@@ -1,0 +1,34 @@
+{
+  "platform": "Darwin",
+  "phocusVersion": "4.1.1",
+  "phocusPath": "/Applications/Phocus.app",
+  "frameworkSha256": {
+    "Contents/Frameworks/HBCamera.framework/Versions/A/HBCamera": "6b326ba293ddfa90dfad05c5fd6f06114183ba3345239a19842acfffea7971e8",
+    "Contents/Frameworks/HBWorkFlow.framework/Versions/A/HBWorkFlow": "8066bd872844394466607ba81d1020bb979c50f43f9c9ab4fd388e34b013de18",
+    "Contents/Frameworks/HBImageProcessing.framework/Versions/A/HBImageProcessing": "e7373e81598dddcdf71e5b12c463c1c89039deccaae073d76590c36392b20db4",
+    "Contents/Frameworks/HBStorage.framework/Versions/A/HBStorage": "f6deef8868a5dbbdbd5538e569877e06197173a9d83fce691fb98e3707750037",
+    "Contents/Frameworks/HBRawCorrections.framework/Versions/A/HBRawCorrections": "cc1385cc6034c22a816798163c1fee4d0f1152947651db44605a876da51cc20d",
+    "Contents/Frameworks/HBUtil.framework/Versions/A/HBUtil": "9763026e22bb0a08ef00902faa20e414161f95d71fbd6aefc897e0278dcc5c6c",
+    "Contents/Resources/English.lproj/Localizable.strings": "f01d1e514de68bdfcf29ffee446081b7ab2b521ae58bed1b93c08b1765334b12"
+  },
+  "supportedEnvironment": [
+    "PHOCUS_PROBE_LABEL",
+    "PHOCUS_CALIBRATED_PROBE",
+    "PHOCUS_ROUNDTRIP_FILE",
+    "PHOCUS_NATIVE_TIFF_FILE",
+    "PHOCUS_RETAIN_NATIVE_TIFF",
+    "PHOCUS_USE_NATIVE_FILE_WRITER",
+    "PHOCUS_ALLOW_NATIVE_64BIT_REOPEN"
+  ],
+  "limitations": [
+    "X2D 100C experiment only; capture ordering must match the tested sequence.",
+    "No GUI export color-reference equivalence has been established.",
+    "16-frame input does not establish a separate 16-shot kernel.",
+    "Temporary RAW preview is inherited from the first source frame.",
+    "This is an experimental private ABI adapter, not a vendor-supported SDK."
+  ],
+  "architectures": [
+    "arm64",
+    "x86_64"
+  ]
+}

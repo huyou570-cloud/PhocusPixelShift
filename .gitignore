@@ -10,3 +10,13 @@ dist/
 bin/
 obj/
 !docs/*.log
+
+# Mac build products and local image-processing jobs
+.DS_Store
+__pycache__/
+*.pyc
+*.app/
+macos/build/
+macos/builds/
+macos/outputs/
+macos/runs/
